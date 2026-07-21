@@ -1,6 +1,6 @@
 from flask import Flask
 import os
-app = Flask(__name__)
+app = Flask(__new__)
 # Simple in-memory counter (resets on restart)
 visits = 0
 @app.route('/')
